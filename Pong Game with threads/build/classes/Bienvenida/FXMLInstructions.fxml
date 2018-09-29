@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Bienvenida.FXMLInstructionsController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#252525" height="712.0" stroke="BLACK" strokeType="INSIDE" width="612.0" />
+      <Label fx:id="labelTitle" alignment="CENTER" layoutX="123.0" layoutY="14.0" text="Instrucciones" textFill="WHITE">
+         <font>
+            <Font name="Pixeled Regular" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelP1" layoutX="23.0" layoutY="185.0" text="Jugador 1:" textFill="WHITE">
+         <font>
+            <Font name="Pixeled Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelP2" layoutX="23.0" layoutY="357.0" text="Jugador 2:" textFill="WHITE">
+         <font>
+            <Font name="Pixeled Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelINSP1" layoutX="58.0" layoutY="249.0" prefHeight="108.0" prefWidth="485.0" text="Usa las teclas W y S para moverte arriba y abajo respectivamente." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="VCR OSD Mono" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelINSP2" layoutX="58.0" layoutY="421.0" prefHeight="96.0" prefWidth="499.0" text="Usa las teclas ARRIBA y ABAJO para moverte arriba y abajo respectivamente." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="VCR OSD Mono" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonOK" alignment="CENTER" layoutX="258.0" layoutY="569.0" mnemonicParsing="false" onAction="#okGame" prefHeight="96.0" prefWidth="84.0" text="OK">
+         <font>
+            <Font name="Pixeled Regular" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

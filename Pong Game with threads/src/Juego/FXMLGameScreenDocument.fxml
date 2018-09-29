@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Juego.FXMLGameScreenController">
+   <children>
+      <Rectangle fill="#252525" height="712.0" stroke="BLACK" strokeType="INSIDE" width="1012.0" />
+      <Label fx:id="labelP1" layoutX="74.0" layoutY="33.0" text="Player 1" textFill="WHITE">
+         <font>
+            <Font name="Pixeled Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelP2" alignment="CENTER_RIGHT" layoutX="789.0" layoutY="33.0" text="Player 2" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="Pixeled Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelSP1" layoutX="344.0" layoutY="17.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Pixeled Regular" size="30.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="5.0" layoutX="476.0" layoutY="63.0" stroke="TRANSPARENT" strokeType="INSIDE" width="50.0" />
+      <Label fx:id="labelSP2" layoutX="628.0" layoutY="17.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Pixeled Regular" size="30.0" />
+         </font>
+      </Label>
+      <Canvas fx:id="canvas" height="550.0" layoutX="25.0" layoutY="130.0" width="950.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="550.0" layoutX="25.0" layoutY="130.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="4.0" width="950.0" />
+      <Circle fill="#ffffff00" layoutX="500.0" layoutY="404.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="5.0" />
+      <Rectangle fx:id="stickP1" arcHeight="10.0" arcWidth="10.0" fill="WHITE" height="120.0" layoutX="37.0" layoutY="344.0" stroke="WHITE" strokeType="INSIDE" width="20.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Rectangle>
+      <Rectangle fx:id="stickP2" arcHeight="10.0" arcWidth="10.0" fill="WHITE" height="120.0" layoutX="942.0" layoutY="344.0" stroke="WHITE" strokeType="INSIDE" width="20.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="131.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="171.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="211.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="251.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="291.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="331.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="371.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="411.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="451.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="491.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="531.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="571.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="611.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="497.0" layoutY="651.0" stroke="WHITE" strokeType="INSIDE" width="7.0" />
+      <Rectangle fx:id="square" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="486.0" layoutY="390.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle fx:id="PFfondo" fill="#252525" height="550.0" layoutX="25.0" layoutY="130.0" stroke="#252525" strokeType="INSIDE" visible="false" width="950.0" />
+      <Label fx:id="PFtitulo" alignment="CENTER" layoutX="296.0" layoutY="115.0" text="Fin del juego" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Pixeled Regular" size="40.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="PFcuadro" arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="81.0" layoutX="372.0" layoutY="320.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" visible="false" width="250.0" />
+      <Label fx:id="PFsubtitulo" alignment="CENTER" layoutX="434.0" layoutY="275.0" text="Ganador:" textFill="WHITE" visible="false">
+         <font>
+            <Font name="VCR OSD Mono" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="PFganador" alignment="CENTER" layoutX="385.0" layoutY="341.0" prefHeight="38.0" prefWidth="221.0" text="Player X" textAlignment="CENTER" textFill="WHITE" visible="false">
+         <font>
+            <Font name="VCR OSD Mono" size="35.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="PFopcion1" alignment="CENTER" layoutX="329.0" layoutY="460.0" onMouseClicked="#resetMatch" text="Reiniciar partida" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Pixeled Regular" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="PFopcion2" alignment="CENTER" layoutX="342.0" layoutY="555.0" onMouseClicked="#resetFullGame" text="Reiniciar juego" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Pixeled Regular" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>

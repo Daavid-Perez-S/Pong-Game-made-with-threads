@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Bienvenida.FXMLLevelChooserController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#252525" height="512.0" stroke="BLACK" strokeType="INSIDE" width="612.0" />
+      <Label fx:id="labelTitle" alignment="CENTER" layoutX="105.0" layoutY="14.0" text="Selecciona un nivel" textFill="WHITE">
+         <font>
+            <Font name="Pixeled Regular" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelEasy" alignment="CENTER" layoutX="227.0" layoutY="168.0" onMouseClicked="#easyDifficulty" text="Fácil" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="50.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="labelNormal" alignment="CENTER" layoutX="212.0" layoutY="260.0" onMouseClicked="#normalDifficulty" text="Normal" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="50.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="labelHard" alignment="CENTER" layoutX="197.0" layoutY="364.0" onMouseClicked="#hardDifficulty" text="Difícil" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="50.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="5.0" layoutX="75.0" layoutY="89.0" stroke="BLACK" strokeType="INSIDE" width="450.0" />
+   </children>
+</AnchorPane>
